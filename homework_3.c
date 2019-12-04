@@ -119,7 +119,10 @@ void extentSort(int *mass, int length)
 	}
 	for (int i = 0; i < length; i++)
 	{
+		if ((mass[i] % 2) == 0)
+		{
 		printf("%d:%d\n",i,mass[i]);
+		}
 	}
 }
 
